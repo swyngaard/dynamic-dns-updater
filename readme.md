@@ -2,12 +2,12 @@
 Update the IP address of a given domain using the [cPanel API 2](https://documentation.cpanel.net/display/SDK/Guide+to+cPanel+API+2).
 
 ## Basic Usage
-```
+```bash
 updater.py -u <username> -p <password> <domain> <sub-domain list> <cpanel url>
 ```
 
 __Example:__
-```
+```bash
 updater.py -u username -p password mydomain.com sub1 sub2 https://my.cpanel.org:2083
 ```
 
