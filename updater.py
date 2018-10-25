@@ -45,6 +45,7 @@ def edit_subdomain_address(cpanel, dns_line, dns_address):
     requests.get(cpanel['url'], params, auth=(cpanel['user'], cpanel['pass']),  verify=True)
 
 
+# Returns the IP address of the current host
 def get_ip_address():
     """
     Use external service to get IP address
