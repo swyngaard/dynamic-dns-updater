@@ -18,6 +18,7 @@ updater.py -u username -p password mydomain.com sub1 sub2 https://my.cpanel.org:
 ## Installation on Raspberry Pi
 
 #### Install the latest Requests module in Python
+TODO: update these instructions to use `pipenv` instead
 ```
 sudo pip install requests
 ```
