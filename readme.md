@@ -1,4 +1,4 @@
-# dynamic-dns-updater
+# Dynamic DNS Updater
 Update the IP address of a given domain using the [cPanel API 2](https://documentation.cpanel.net/display/SDK/Guide+to+cPanel+API+2).
 
 ## Basic Usage
@@ -18,7 +18,8 @@ updater.py -u username -p password mydomain.com sub1 sub2 https://my.cpanel.org:
 ## Installation on Raspberry Pi
 
 #### Install the latest Requests module in Python
-TODO: update these instructions to use `pipenv` instead
+**TODO:** convert to `pipenv` instead 
+
 ```
 sudo pip install requests
 ```
